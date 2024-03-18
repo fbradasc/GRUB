@@ -9,7 +9,7 @@
     (property "Footprint" "" (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "" (at 0 0 0)
+    (property "Datasheet" "https://www.ledsupply.com/content/pdf/led-driver-luxdrive-buckblock_documentation.pdf" (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "A009_BuckBlock_0_1"
