@@ -4,7 +4,7 @@
                           G-R-U-B
                           | | | |
                           | | | +----> <B>lue  (440nm) - Royal blue
-                          | | +------> <U>V    (410nm) - Near Violet
+                          | | +------> <U>V    (425nm) - Near Violet
                           | +--------> <R>ed   (660nm) - Deep red
                           +----------> <G>reen (525nm)
 ```
