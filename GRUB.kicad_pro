@@ -328,8 +328,12 @@
       ""
     ],
     [
+      "5e839a07-4be5-4c9a-ad45-e94867be72dd",
+      "Power"
+    ],
+    [
       "f8cf872b-e72f-49ba-ae82-d4e9a056286c",
-      "LEDs drivers"
+      "LEDs_drivers"
     ]
   ],
   "text_variables": {}

@@ -11,4 +11,5 @@
 
 **GRUB** is a LEDs control board for an enlarger variable contrast & color head
 ![GRUB main schematic](GRUB.svg)
+![GRUB power rack schematic](GRUB-Power.svg)
 ![GRUB drivers schematic](GRUB-LEDs_drivers.svg)
