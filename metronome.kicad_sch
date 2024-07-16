@@ -1203,6 +1203,17 @@
 		)
 		(uuid "fd675828-8636-4653-877f-44922ed9fb41")
 	)
+	(text "Metronome regulation\n1) press the foot switch\n2) rotate the M_TRIM's cursor in order to have a click each second (60 clicks per minute)"
+		(exclude_from_sim no)
+		(at 121.412 131.318 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c1db9671-e817-42a5-8a16-1933363019f7")
+	)
 	(global_label "FOOT_SWITCH"
 		(shape input)
 		(at 160.02 109.22 270)
@@ -1235,8 +1246,8 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0594b95b-7803-4cc3-97e2-4d59d6116104")
-		(property "Reference" "RV3"
-			(at 149.86 83.8199 0)
+		(property "Reference" "M_TRIM"
+			(at 149.86 81.534 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1245,7 +1256,7 @@
 			)
 		)
 		(property "Value" "50k"
-			(at 149.86 86.3599 0)
+			(at 147.32 83.312 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1292,7 +1303,7 @@
 		(instances
 			(project ""
 				(path "/443fc4b5-0df2-45f7-86a3-68fb41149ce4/c56b1fe6-b240-47cd-9e98-b7dea85fd84b"
-					(reference "RV3")
+					(reference "M_TRIM")
 					(unit 1)
 				)
 			)
