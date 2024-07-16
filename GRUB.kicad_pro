@@ -409,6 +409,10 @@
     [
       "f8cf872b-e72f-49ba-ae82-d4e9a056286c",
       "LEDs_drivers"
+    ],
+    [
+      "c56b1fe6-b240-47cd-9e98-b7dea85fd84b",
+      "Metronome"
     ]
   ],
   "text_variables": {}
