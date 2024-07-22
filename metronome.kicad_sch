@@ -1334,7 +1334,7 @@
 		)
 		(uuid "f8f89303-cfef-4998-9f21-fde40c1dffbc")
 	)
-	(text "Metronome regulation\n1) press the foot switch\n2) rotate the M_TRIM's cursor in order to have a click each second (60 clicks per minute)"
+	(text "R value:\n-  47k for 15 ohm speaker\n- 150k for  8 ohm speaker\n\nMetronome regulation\n1) press the foot switch\n2) rotate the M_TRIM's cursor in order to have a click each second (60 clicks per minute)"
 		(exclude_from_sim no)
 		(at 121.412 131.318 0)
 		(effects
@@ -1532,8 +1532,8 @@
 				)
 			)
 		)
-		(property "Value" "47k"
-			(at 149.098 77.47 90)
+		(property "Value" "R"
+			(at 149.098 77.724 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1677,7 +1677,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "8 ohm"
+		(property "Value" "~"
 			(at 172.212 110.109 90)
 			(effects
 				(font
