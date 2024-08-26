@@ -798,6 +798,257 @@
 				)
 			)
 		)
+		(symbol "Switch:SW_DPST"
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "SW"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "SW_DPST"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Double Pole Single Throw (DPST) Switch"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "switch dual double-pole single-throw OFF-ON"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SW_DPST_0_0"
+				(circle
+					(center -2.032 -2.54)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -2.032 2.54)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.524 -2.286) (xy 1.27 -1.016)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.524 2.794) (xy 1.27 4.064)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -1.27) (xy 0 -0.635)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 0.635)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.27) (xy 0 1.905)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0 3.175)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 -2.54)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 2.54)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "SW_DPST_1_1"
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -2.54 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 2.54 0)
+					(length 2.54)
+					(name "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 2.54 180)
+					(length 2.54)
+					(name "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "device:CP"
 			(pin_numbers hide)
 			(pin_names
@@ -1589,139 +1840,6 @@
 				)
 			)
 		)
-		(symbol "switches:SW_SPST"
-			(pin_names
-				(offset 0) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "SW"
-				(at 0 3.175 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "SW_SPST"
-				(at 0 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Single Pole Single Throw (SPST) switch"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "switch lever"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "SW_SPST_0_0"
-				(circle
-					(center -2.032 0)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.524 0.254) (xy 1.524 1.778)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.032 0)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "SW_SPST_1_1"
-				(pin passive line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 2.54)
-					(name "B"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 	)
 	(junction
 		(at 182.88 90.805)
@@ -1763,13 +1881,13 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 95.885) (xy 118.11 95.885)
+			(xy 100.838 95.885) (xy 105.41 95.885)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "04be4022-288c-45db-b694-259b2b08178f")
+		(uuid "086588a9-d08d-4ced-9bb6-6762ff2ef7ad")
 	)
 	(wire
 		(pts
@@ -1810,6 +1928,16 @@
 			(type default)
 		)
 		(uuid "33d55da8-83e7-40e6-a7bd-13a190ec36ef")
+	)
+	(wire
+		(pts
+			(xy 115.57 95.885) (xy 118.11 95.885)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "340d69cc-ff29-4aa9-a7c3-8bc9875ccce7")
 	)
 	(wire
 		(pts
@@ -1893,7 +2021,7 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 90.805) (xy 105.41 90.805)
+			(xy 100.838 90.805) (xy 105.41 90.805)
 		)
 		(stroke
 			(width 0)
@@ -1903,7 +2031,7 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 93.345) (xy 102.87 93.345)
+			(xy 103.124 93.345) (xy 100.838 93.345)
 		)
 		(stroke
 			(width 0)
@@ -1943,7 +2071,7 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 93.345) (xy 105.41 99.187)
+			(xy 103.124 93.345) (xy 103.124 99.187)
 		)
 		(stroke
 			(width 0)
@@ -2033,6 +2161,79 @@
 			(project "GRUB"
 				(path "/443fc4b5-0df2-45f7-86a3-68fb41149ce4/5e839a07-4be5-4c9a-ad45-e94867be72dd"
 					(reference "#PWR047")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_DPST")
+		(at 110.49 93.345 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6b6c1026-2128-48d5-924a-9ee983df937d")
+		(property "Reference" "SW5"
+			(at 110.49 84.074 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MAIN_SW"
+			(at 110.49 86.614 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 110.49 93.345 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 110.49 93.345 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Double Pole Single Throw (DPST) Switch"
+			(at 110.49 93.345 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "fd22ae3f-cdb5-45cb-9b6f-a6fd17513749")
+		)
+		(pin "3"
+			(uuid "b6d2fd7b-2366-4618-a096-4628b098e95e")
+		)
+		(pin "1"
+			(uuid "829af5a8-f8cb-4df8-b19e-94345ee4d9f8")
+		)
+		(pin "2"
+			(uuid "53d8d9c5-d236-4f44-8c57-4aed453602ac")
+		)
+		(instances
+			(project ""
+				(path "/443fc4b5-0df2-45f7-86a3-68fb41149ce4/5e839a07-4be5-4c9a-ad45-e94867be72dd"
+					(reference "SW5")
 					(unit 1)
 				)
 			)
@@ -2177,76 +2378,8 @@
 		)
 	)
 	(symbol
-		(lib_id "switches:SW_SPST")
-		(at 110.49 90.805 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "84019b94-4545-4ba4-9013-fba6f587f391")
-		(property "Reference" "SW11"
-			(at 110.49 85.217 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "MAIN_SW"
-			(at 110.49 87.757 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 110.49 90.805 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 110.49 90.805 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 110.49 90.805 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "53d29b1b-52fc-49aa-a2f1-d95b407caf95")
-		)
-		(pin "2"
-			(uuid "b5b8e68d-062e-45fd-aad0-8f353ca7e1af")
-		)
-		(instances
-			(project "GRUB"
-				(path "/443fc4b5-0df2-45f7-86a3-68fb41149ce4/5e839a07-4be5-4c9a-ad45-e94867be72dd"
-					(reference "SW11")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector:Screw_Terminal_01x03")
-		(at 97.79 93.345 0)
+		(at 95.758 93.345 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2256,7 +2389,7 @@
 		(fields_autoplaced yes)
 		(uuid "8d60f361-971c-447a-b39a-7b6ab1fcea28")
 		(property "Reference" "J8"
-			(at 97.79 85.725 0)
+			(at 95.758 85.725 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2264,7 +2397,7 @@
 			)
 		)
 		(property "Value" "A/C"
-			(at 97.79 88.265 0)
+			(at 95.758 88.265 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2272,7 +2405,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 97.79 93.345 0)
+			(at 95.758 93.345 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2281,7 +2414,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 97.79 93.345 0)
+			(at 95.758 93.345 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2290,7 +2423,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 97.79 93.345 0)
+			(at 95.758 93.345 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2449,7 +2582,7 @@
 	)
 	(symbol
 		(lib_id "power:Earth_Protective")
-		(at 105.41 99.187 0)
+		(at 103.124 99.187 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2458,7 +2591,7 @@
 		(fields_autoplaced yes)
 		(uuid "a5795e5d-d847-42be-83d5-69f209c27164")
 		(property "Reference" "#PWR010"
-			(at 111.76 105.537 0)
+			(at 109.474 105.537 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2467,7 +2600,7 @@
 			)
 		)
 		(property "Value" "Earth_Protective"
-			(at 116.84 102.997 0)
+			(at 114.554 102.997 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2476,7 +2609,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 105.41 101.727 0)
+			(at 103.124 101.727 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2485,7 +2618,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 105.41 101.727 0)
+			(at 103.124 101.727 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2494,7 +2627,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 105.41 99.187 0)
+			(at 103.124 99.187 0)
 			(effects
 				(font
 					(size 1.27 1.27)
