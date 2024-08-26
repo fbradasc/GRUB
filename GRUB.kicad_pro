@@ -239,7 +239,7 @@
       "no_connect_dangling": "warning",
       "pin_not_connected": "error",
       "pin_not_driven": "error",
-      "pin_to_pin": "warning",
+      "pin_to_pin": "error",
       "power_pin_not_driven": "error",
       "similar_labels": "warning",
       "simulation_model_issue": "error",
@@ -387,7 +387,7 @@
     },
     "net_format_name": "",
     "page_layout_descr_file": "",
-    "plot_directory": "",
+    "plot_directory": "./",
     "spice_current_sheet_as_root": false,
     "spice_external_command": "spice \"%I\"",
     "spice_model_current_sheet_as_root": true,
@@ -409,6 +409,10 @@
     [
       "f8cf872b-e72f-49ba-ae82-d4e9a056286c",
       "LEDs_drivers"
+    ],
+    [
+      "c56b1fe6-b240-47cd-9e98-b7dea85fd84b",
+      "Metronome"
     ]
   ],
   "text_variables": {}

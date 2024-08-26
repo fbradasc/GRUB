@@ -13,3 +13,4 @@
 ![GRUB main schematic](GRUB.svg)
 ![GRUB power rack schematic](GRUB-Power.svg)
 ![GRUB drivers schematic](GRUB-LEDs_drivers.svg)
+![GRUB metronome schematic](GRUB-Metronome.svg)
